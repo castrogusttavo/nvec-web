@@ -1,11 +1,12 @@
 import { Hero } from './Hero/Hero'
+import { Introduction } from './Introduction/Introduction'
 
 export function Main() {
   return (
     <div>
       <Hero />
+      <Introduction />
       {/* 
-        Introduction
         Features
         Tools
         Benefits
