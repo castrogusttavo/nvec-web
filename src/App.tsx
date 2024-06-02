@@ -1,11 +1,9 @@
- import { ButtonLink } from "./components/ButtonLink"
- import { ButtonTab } from "./components/ButtonTab"
- 
- export function App() {
+import { Main } from './pages/Main'
+
+export function App() {
   return (
     <div>
-      <ButtonLink />
-      <ButtonTab isActive={true} />
+      <Main />
     </div>
   )
 }
