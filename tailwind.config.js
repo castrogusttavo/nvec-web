@@ -1,3 +1,5 @@
+import { mauve, violet } from '@radix-ui/colors'
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
@@ -19,8 +21,19 @@ export default {
       sans: 'Plus Jakarta Sans, sans-serif',
     },
     extend: {
-      backgroundImage: {
-        'bg-member': "url('/src/assets/svg/bgMember.svg')",
+      keyframes: {
+        slideDown: {
+          '0%': { maxHeight: '0px', opacity: 0 },
+          '100%': { maxHeight: '1000px', opacity: 1 },
+        },
+        slideUp: {
+          '0%': { maxHeight: '1000px', opacity: 1 },
+          '100%': { maxHeight: '0px', opacity: 0 },
+        },
+      },
+      animation: {
+        slideDown: 'slideDown 300ms cubic-bezier(0.87, 0, 0.13, 1)',
+        slideUp: 'slideUp 300ms cubic-bezier(0.87, 0, 0.13, 1)',
       },
     },
   },
