@@ -57,7 +57,7 @@ export function FaqContainer() {
 
   return (
     <div className="flex flex-col items-start gap-10 self-stretch">
-      <div className="flex flex-col items-start self-stretch">
+      <div className="flex flex-col items-start self-stretch max-w-[698px]">
         {faqData.map((faq, index) => (
           <FaqCard
             key={index}

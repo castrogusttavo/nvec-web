@@ -83,11 +83,11 @@ export function MemberContainer() {
   return (
     <div className="flex flex-col items-start gap-10 self-stretch">
       <div
-        className="max-w-[410px] sm:max-w-none overflow-x-auto md:overflow-x-visible whitespace-nowrap scrollbar-hide"
+        className="max-w-[410px] sm:max-w-none overflow-x-auto md:overflow-x-auto whitespace-nowrap scrollbar-hide"
         ref={containerRef}
         onScroll={handleScroll}
       >
-        <div className="flex justify-start items-start gap-4 self-stretch md:min-w-full">
+        <div className="flex justify-start items-start gap-4 self-stretch sm:max-w-[600px] md:max-w-[700px] lg:max-w-[1000px] xl:max-w-[1078px] 2xl:max-w-[1320px]">
           {members.map((member, index) => (
             <Member
               key={index}

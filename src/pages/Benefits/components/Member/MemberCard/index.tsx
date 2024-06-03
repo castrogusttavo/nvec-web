@@ -18,7 +18,7 @@ export function Member({
   return (
     <div className="bg-[#09090A] bg-no-repeat bg-cover max-w-[400px] rounded-2xl border border-solid border-[#323238]">
       <div className="flex pt-3 pb-4 px-4 flex-col gap-3 mb-2 self-stretch w-[278px]">
-        <div className="flex item-center gap-2 self-stretch">
+        <div className="flex items-center gap-2 self-stretch">
           <span className="text-[#C4C4C4] font-sans font-medium text-xs uppercase">
             {level}
           </span>

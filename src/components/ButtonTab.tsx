@@ -12,7 +12,7 @@ export function ButtonTab({ isActive, children, onClick }: ButtonTabProps) {
       }`}
       onClick={onClick}
     >
-      <span className="uppercase text-[#FFF] font-sans text-sm">
+      <span className="uppercase text-[#FFF] font-sans text-sm font-bold">
         {children}
       </span>
     </button>

@@ -1,10 +1,9 @@
-import { mauve, violet } from '@radix-ui/colors'
-
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     screens: {
+      xs: '320px',
       sm: '640px',
       // => @media (min-width: 640px) { ... }
 
@@ -16,6 +15,7 @@ export default {
 
       xl: '1280px',
       // => @media (min-width: 1280px) { ... }
+      '2xl': '1500px',
     },
     fontFamily: {
       sans: 'Plus Jakarta Sans, sans-serif',

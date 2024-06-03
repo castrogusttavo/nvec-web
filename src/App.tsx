@@ -8,7 +8,7 @@ import { Tools } from './pages/Tools/Tools'
 
 export function App() {
   return (
-    <div>
+    <div className="max-w[1256px] min-w-[320px]">
       <Hero />
       <Introduction />
       <Features />
@@ -16,6 +16,7 @@ export function App() {
       <Benefits />
       <Faq />
       <Footer />
+      <div className="sm:flex md:flex lg:flex xl:flex"></div>
     </div>
   )
 }

@@ -38,7 +38,7 @@ export function FeatureTab() {
   const { title, description, imgUrl } = tabContents[activeIndex]
 
   return (
-    <div className="">
+    <div className="min-w-full xl:max-w-[1216px] xs:max-w-[320px] xl:w-full">
       <Tablist activeIndex={activeIndex} setActiveIndex={setActiveIndex} />
       <FeatureData
         title={title}
