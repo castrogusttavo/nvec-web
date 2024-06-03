@@ -50,12 +50,14 @@ export function Footer() {
             </a>
           </li>
         </div>
-        <button
-          className="flex w-12 h-12 py-5 px-[18px] justify-center items-center rounded-md bg-[#121214]"
-          onClick={scrollToTop}
-        >
-          <ArrowUp01Icon size={12} color="#E1E1E6" strokeWidth={4} />
-        </button>
+        {isVisible && (
+          <button
+            className="flex w-12 h-12 py-5 px-[18px] justify-center items-center rounded-md bg-[#121214]"
+            onClick={scrollToTop}
+          >
+            <ArrowUp01Icon size={12} color="#E1E1E6" strokeWidth={4} />
+          </button>
+        )}
       </div>
       <div className="h-1 self-stretch bg-gradient-to-r from-[#29E0A9B2] to-[#5F75F2B2] to-[#9956F6B2] to-[#E254FFB2]"></div>
     </footer>
