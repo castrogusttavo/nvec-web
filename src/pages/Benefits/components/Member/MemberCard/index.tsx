@@ -2,7 +2,7 @@
 import {
   GitHubLogoIcon,
   LinkedInLogoIcon,
-  DotFilledIcon,
+  InstagramLogoIcon,
 } from '@radix-ui/react-icons'
 
 interface MemberProps {
@@ -12,6 +12,7 @@ interface MemberProps {
   course: string
   linkGitHub?: string
   linkLinkedIn?: string
+  linkInstagram?: string
 }
 
 export function Member({
@@ -21,6 +22,7 @@ export function Member({
   course,
   linkGitHub,
   linkLinkedIn,
+  linkInstagram,
 }: MemberProps) {
   return (
     <div className="bg-[#09090A] bg-no-repeat bg-cover max-w-[400px] rounded-2xl border border-solid border-[#323238]">
@@ -29,18 +31,21 @@ export function Member({
           <span className="text-[#C4C4C4] font-sans uppercase flex gap-2">
             {linkGitHub && (
               <GitHubLogoIcon
-                className="hover:text-[#FFF]"
+                className="hover:text-[#FFF] cursor-pointer"
                 onClick={() => window.open(linkGitHub)}
               />
             )}
             {linkLinkedIn && (
               <LinkedInLogoIcon
-                className="hover:text-[#FFF]"
+                className="hover:text-[#FFF] cursor-pointer"
                 onClick={() => window.open(linkLinkedIn)}
               />
             )}
             {!linkGitHub && !linkLinkedIn && (
-              <DotFilledIcon className="hover:text-[#FFF]" />
+              <InstagramLogoIcon
+                className="hover:text-[#FFF] cursor-pointer"
+                onClick={() => window.open(linkInstagram)}
+              />
             )}
           </span>
         </div>

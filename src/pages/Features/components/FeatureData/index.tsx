@@ -12,7 +12,7 @@ export function FeatureData({
   imgFeature,
 }: FeatureDataProps) {
   return (
-    <div className="flex flex-col mt-10 gap-10 lg:flex-row xl:max-w-[1216px] lg:justify-between lg:items-center">
+    <div className="flex flex-col mt-10 gap-10 lg:flex-row xl:w-full lg:justify-center lg:items-center">
       <div className="flex flex-col gap-10">
         <div className="flex flex-col gap-4 items-start self-stretch lg:max-w-[324px] xl:max-w-[517px]">
           <h2 className="self-stretch text-[#FFF] font-medium text-xl md:pr-[400px] lg:text-3xl lg:pr-0">
