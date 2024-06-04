@@ -5,39 +5,44 @@ import { ProgressBar } from '../../ProgressBar'
 export function MemberContainer() {
   const members = [
     {
-      name: 'Diego Fernandes',
-      role: 'CTO Rocketseat',
+      name: 'Álvaro Oliveira',
+      role: 'Co-fundador',
       image: '/src/assets/img/diego.png',
-      level: 'intermediário',
-      course: 'Formação em DevOps',
+      course: 'Analista de Qualidade',
     },
     {
-      name: 'Diego Fernandes',
-      role: 'CTO Rocketseat',
+      name: 'Gabrielly Machado',
+      role: 'Co-fundador',
       image: '/src/assets/img/diego.png',
-      level: 'intermediário',
-      course: 'Formação em DevOps',
+      course: 'Desenvolvedora Front-end',
+      linkGitHub: 'https://github.com/Gabrielly-Souza123',
+      linkLinkedIn:
+        'https://www.linkedin.com/in/gabrielly-s-machado-b47b80211/',
     },
     {
-      name: 'Diego Fernandes',
-      role: 'CTO Rocketseat',
+      name: 'Gusttavo Castro',
+      role: 'Co-fundador',
       image: '/src/assets/img/diego.png',
-      level: 'intermediário',
-      course: 'Formação em DevOps',
+      course: 'Back-end & Designer',
+      linkGitHub: 'https://github.com/castrogusttavo',
+      linkLinkedIn: 'https://linkedin.com/in/castrogusttavo',
     },
     {
-      name: 'Diego Fernandes',
-      role: 'CTO Rocketseat',
+      name: 'Jennifer Gama',
+      role: 'Co-fundador',
       image: '/src/assets/img/diego.png',
-      level: 'intermediário',
-      course: 'Formação em DevOps',
+      course: 'Desenvolvedora Full-stack',
+      linkGitHub: 'https://github.com/JenGama',
+      linkLinkedIn: 'https://www.linkedin.com/in/jennifer-gama-21893b270/',
     },
     {
-      name: 'Diego Fernandes',
-      role: 'CTO Rocketseat',
+      name: 'Sofia Rocha',
+      role: 'Co-fundador',
       image: '/src/assets/img/diego.png',
-      level: 'intermediário',
-      course: 'Formação em DevOps',
+      course: 'Desenvolvedora Front-end',
+      linkGitHub: 'https://github.com/TufiaDev',
+      linkLinkedIn:
+        'https://www.linkedin.com/in/sofia-rodrigues-rocha-430159265/',
     },
   ]
 
@@ -94,8 +99,9 @@ export function MemberContainer() {
               name={member.name}
               role={member.role}
               imageMember={member.image}
-              level={member.level}
               course={member.course}
+              linkGitHub={member.linkGitHub}
+              linkLinkedIn={member.linkLinkedIn}
             />
           ))}
         </div>

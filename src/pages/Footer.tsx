@@ -28,24 +28,24 @@ export function Footer() {
   }
 
   return (
-    <footer className="flex pt-[1px] flex-col items-center self-stretch lg:justify-between">
+    <footer className="flex pt-[1px] flex-col items-center self-stretch lg:justify-between border-t border-solid border-[#323238]">
       <div className="flex py-8 px-[53.5px] flex-col text-center justify-center items-center gap-10 lg:flex-row lg:justify-between lg:px-6 lg:w-full xl:px-[91px]">
         <header className="text-[#F7F7FA] font-logo text-2xl font-black">
           Na Volta Eu Compro
         </header>
         <div className="flex flex-col items-center gap-1 lg:flex-row lg:gap-6">
           <li className="flex flex-col items-start">
-            <a className="text-[#E1E1E6] text-base font-normal hover:opacity-70">
+            <a className="text-[#E1E1E6] text-base font-normal hover:opacity-70 cursor-pointer">
               Direitos Autorais
             </a>
           </li>
           <li className="flex flex-col items-start">
-            <a className="text-[#E1E1E6] text-base font-normal hover:opacity-70">
+            <a className="text-[#E1E1E6] text-base font-normal hover:opacity-70 cursor-pointer">
               Termos de uso
             </a>
           </li>
           <li className="flex flex-col items-start">
-            <a className="text-[#E1E1E6] text-base font-normal hover:opacity-70">
+            <a className="text-[#E1E1E6] text-base font-normal hover:opacity-70 cursor-pointer">
               Políticas de privacidade
             </a>
           </li>

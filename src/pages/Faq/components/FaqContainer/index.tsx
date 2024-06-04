@@ -7,47 +7,34 @@ export function FaqContainer() {
   const faqData = [
     {
       number: 1,
-      question: `Gostaria de oferecer
-      descontos da Rocketseat para
-      os meus colaboradores. Com
-      quem devo falar?`,
-      answer: `Conheça nossos planos e condições para times e outras soluções para empresas através do email: `,
-      link: `parceiros@rocketseat.com.br`,
+      question: `Como criar uma lista de compras?`,
+      answer: `Para criar uma lista de compras, abra o aplicativo, vá até a seção "Listas" e clique em "Criar Nova Lista". Adicione os itens que deseja comprar e salve a lista.`,
     },
     {
       number: 2,
-      question: `Consigo fazer a gestão das
-      licenças e rotatividade entre
-      os meus colaboradores?`,
-      answer: `Sim! Com nosso dashboard você tem autonomia e liberdade para fazer a gestão e rotação de licenças a hora que quiser!`,
+      question: `Posso compartilhar minhas listas com amigos e familiares?`,
+      answer: `Sim, você pode compartilhar suas listas criando comunidades dentro do aplicativo e convidando amigos e familiares para participar!`,
     },
     {
       number: 3,
-      question: `Posso personalizar quais
-      formações meu time terá
-      acesso?`,
-      answer: `Em nossa plataforma de aprendizado contínuo seu colaborador terá acesso a um catálogo completo com todas as formações, cursos e conteúdos liberados. Você poderá escolher capacitação que desejar, personalizar sua jornada de estudos e ainda acompanhar o progresso na formação que escolher. Ou seja, um dev pode estudar Python, enquanto outro aprende Java.`,
+      question: `Como funciona a comparação de preços?`,
+      answer: `O aplicativo permite que você compare o preço da sua lista com os preços de outros usuários na comunidade, ajudando você a encontrar a opção mais baratas.`,
     },
     {
       number: 4,
-      question: `A contratação para empresas,
-      permite a emissão de
-      certificado?`,
-      answer: `Sim! Ao finalizar cada formação, seu colaborador poderá emitir o certificado da respectiva tecnologia. E pode colecionar diversos certificados, estudando em mais de uma formação, sem nenhum custo a mais.`,
+      question: `O aplicativo envia notificações e lembretes?`,
+      answer: `Sim, o aplicativo envia notificações para lembrar de listas pendentes e outras notificações importantes, como promoções e atualizações.
+      `,
     },
     {
       number: 5,
-      question: `Como funciona a plataforma e
-      dashboard para empresas?`,
-      answer: `Você terá um login e senha que dá acesso a um dashboard de gestão onde pode gerenciar todas as licenças e acessos com facilidade, analisar o engajamento do seu time, horas de conteúdo consumidas, desempenho nos quizes e desafios e ainda pode gerar relatórios, exportando esses gráficos para usar em avaliações de performance ou como preferir.`,
+      question: `Posso estabelecer um limite de gastos nas minhas listas?`,
+      answer: `Sim, você pode definir limites de compra nas suas listas para ajudar a controlar seus gastos e evitar despesas excessivas.`,
     },
     {
       number: 6,
-      question: `Tenho somente um dev em
-      minha empresa, posso
-      contratar a Rocketseat para
-      empresas?`,
-      answer: `Nesse caso, você pode optar pela contratação de nossa assinatura anual. Converse com nosso time para conferir as condições e opções disponíveis: parceiros@rocketseat.com.br O dashboard de gestão do Rocketseat para empresas está disponível para times a partir de 2 licenças.`,
+      question: `O aplicativo é gratuito?`,
+      answer: `Sim, o aplicativo oferece uma versão gratuita com todas as funcionalidades essenciais para gerenciar suas finanças pessoais. Além disso, temos planos de assinatura que oferecem recursos adicionais e benefícios exclusivos.`,
     },
   ]
 
@@ -56,7 +43,7 @@ export function FaqContainer() {
   }
 
   return (
-    <div className="flex flex-col items-start gap-10 self-stretch">
+    <div className="flex flex-col items-start gap-10 self-stretch max-w-[698px]">
       <div className="flex flex-col items-start self-stretch max-w-[698px]">
         {faqData.map((faq, index) => (
           <FaqCard
@@ -64,7 +51,6 @@ export function FaqContainer() {
             number={faq.number}
             question={faq.question}
             answer={faq.answer}
-            link={faq.link}
             isOpen={openIndex === index}
             onClick={() => handleFaqCardClick(index)}
           />

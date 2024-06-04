@@ -19,9 +19,3 @@ export function BenefitsCard({ title, description, icon }: BenefitsCardProps) {
     </div>
   )
 }
-
-/*
-  ChartHistogramIcon   
-  Time01Icon,
-  AnalyticsUpIcon,
-  UserGroupIcon, */

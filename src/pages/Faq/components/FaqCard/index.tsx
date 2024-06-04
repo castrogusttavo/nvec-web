@@ -18,7 +18,7 @@ export function FaqCard({
   link,
 }: FaqCardProps) {
   return (
-    <div className="flex pt-[1px] flex-col items-start self-stretch border-t border-solid border-[#323238]">
+    <div className="flex pt-[1px] flex-col items-start self-stretch border-t border-solid border-[#323238] group">
       <div
         className="flex py-4 justify-between items-start self-stretch cursor-pointer"
         onClick={onClick}
@@ -27,10 +27,8 @@ export function FaqCard({
           <div className="flex flex-col items-center">
             <span
               className={`text-center text-xl font-medium transition-colors ${
-                isOpen
-                  ? 'text-[#C4C4CC]'
-                  : 'text-[#737380] hover:text-[#C4C4CC]'
-              }`}
+                isOpen || 'group-hover:text-[#C4C4CC]'
+              } ${isOpen ? 'text-[#C4C4CC]' : 'text-[#737380]'}`}
             >
               {String(number).padStart(2, '0')}.
             </span>
@@ -49,18 +47,20 @@ export function FaqCard({
           />
         </div>
       </div>
-      {isOpen && (
-        <div
-          className={`overflow-hidden transition-[max-height,opacity] duration-300 ease-in-out ${
-            isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
-          }`}
-        >
-          <p className="px-4 pb-8 pt-4 text-[#A8A8B3] [&>a]:underline">
-            {answer}
-            <a href={link}>{link}</a>
-          </p>
-        </div>
-      )}
+      <div
+        className={`overflow-hidden transition-all duration-500 ease-in-out ${
+          isOpen ? 'max-h-[1000px] opacity-100' : 'max-h-0 opacity-0'
+        }`}
+      >
+        <p className="px-4 pb-8 pt-4 text-[#A8A8B3] [&>a]:underline">
+          {answer}
+          {link && (
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              {link}
+            </a>
+          )}
+        </p>
+      </div>
     </div>
   )
 }

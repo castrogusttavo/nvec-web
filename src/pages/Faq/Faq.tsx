@@ -12,7 +12,9 @@ export function Faq() {
             Perguntas e respostas mais frequentes
           </h2>
         </div>
-        <FaqContainer />
+        <div className="w-[698px]">
+          <FaqContainer />
+        </div>
       </div>
     </div>
   )

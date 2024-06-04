@@ -7,10 +7,10 @@ export function Benefits() {
       <div className="pl-[20px] flex flex-col gap-10 self-stretch items-start">
         <div className="flex pt-[2px] flex-col items-start gap-[18px] self-stretch">
           <span className="font-sans text-sm font-bold tracking-[1.4px] text-[#29E0A9] uppercase">
-            conteúdo para todos os desafios
+            conheça os criadores do na volta eu compro
           </span>
-          <h2 className="text-2xl font-medium text-[#FFF]">
-            Formações que seu time vai ter acesso
+          <h2 className="text-2xl lg:text-4xl font-medium text-[#FFF]">
+            Equipe Dedicada à Sua Economia
           </h2>
         </div>
         <div className="min-w-full">

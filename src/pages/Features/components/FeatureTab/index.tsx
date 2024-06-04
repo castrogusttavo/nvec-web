@@ -6,28 +6,27 @@ import featureDashboard from '../../../../assets/img/featureDashboard.png'
 
 const tabContents = [
   {
-    title:
-      'Obtenha uma visão geral de acompanhamento das licenças e do engajamento dos usuários',
+    title: 'Organize Suas Compras com Facilidade',
     description:
-      'O engajamento é medido através de quatro tipos de ações: assistir aulas, enviar desafios práticos, responder quizes e interagir no fórum (criando tópicos, respondendo e votando).',
+      'Monte suas listas de compras de forma simples e prática. Adicione itens com facilidade, organize-os por categorias e tenha tudo pronto para suas compras. Nunca mais se esqueça de comprar o que precisa.',
     imgUrl: featureDashboard,
   },
   {
-    title: 'Consulte o uso e as ações de engajamento individualmente',
+    title: 'Compartilhe e Colabore com Comunidades',
     description:
-      'Tenha relatórios completos de engajamento e consulte o progresso de estudo individual.',
+      'Compartilhe suas listas com amigos e familiares, facilitando a colaboração e garantindo que todos estejam na mesma página. Ideal para compras coletivas e planejamento familiar, permitindo que todos participem e contribuam.',
     imgUrl: featureDashboard,
   },
   {
-    title: 'Faça a gestão de licenças de seu time',
+    title: 'Visualize Seus Gastos com Relatórios Detalhados',
     description:
-      'Gerencie as pessoas que têm acesso à plataforma de estudos e veja os detalhes das licenças contratadas.',
+      'Acompanhe seus gastos com relatórios mensais e semestrais detalhados. Visualize suas despesas de forma clara e gráfica, ajudando você a entender onde está gastando e onde pode economizar. Tenha um panorama completo das suas finanças.',
     imgUrl: featureDashboard,
   },
   {
-    title: 'Gerencie os usuários que podem acessar a plataforma para empresas',
+    title: 'Encontre as Melhores Ofertas com Comparação de Preços',
     description:
-      'Crie novos usuários, atribuindo diferentes permissões: Owner, Gestor e Analista.',
+      'Compare os preços das suas listas dentro da comunidade e encontre as opções mais baratas. Veja de forma transparente qual loja oferece o melhor preço para os itens que você precisa, garantindo economia nas suas compras.',
     imgUrl: featureDashboard,
   },
 ]
