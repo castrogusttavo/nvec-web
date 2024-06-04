@@ -7,13 +7,13 @@ export function MemberContainer() {
     {
       name: 'Álvaro Oliveira',
       role: 'Co-fundador',
-      image: '/src/assets/img/diego.png',
+      image: '/src/assets/img/member/alvaro.png',
       course: 'Analista de Qualidade',
     },
     {
       name: 'Gabrielly Machado',
       role: 'Co-fundador',
-      image: '/src/assets/img/diego.png',
+      image: '',
       course: 'Desenvolvedora Front-end',
       linkGitHub: 'https://github.com/Gabrielly-Souza123',
       linkLinkedIn:
@@ -22,7 +22,7 @@ export function MemberContainer() {
     {
       name: 'Gusttavo Castro',
       role: 'Co-fundador',
-      image: '/src/assets/img/diego.png',
+      image: '',
       course: 'Back-end & Designer',
       linkGitHub: 'https://github.com/castrogusttavo',
       linkLinkedIn: 'https://linkedin.com/in/castrogusttavo',
@@ -30,7 +30,7 @@ export function MemberContainer() {
     {
       name: 'Jennifer Gama',
       role: 'Co-fundador',
-      image: '/src/assets/img/diego.png',
+      image: '',
       course: 'Desenvolvedora Full-stack',
       linkGitHub: 'https://github.com/JenGama',
       linkLinkedIn: 'https://www.linkedin.com/in/jennifer-gama-21893b270/',
@@ -38,7 +38,7 @@ export function MemberContainer() {
     {
       name: 'Sofia Rocha',
       role: 'Co-fundador',
-      image: '/src/assets/img/diego.png',
+      image: '',
       course: 'Desenvolvedora Front-end',
       linkGitHub: 'https://github.com/TufiaDev',
       linkLinkedIn:
