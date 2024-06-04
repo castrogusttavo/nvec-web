@@ -3,7 +3,7 @@ import { ToolContainer } from './components/Tool/index'
 export function Tools() {
   return (
     <div className="bg-[#FFF] flex py-20 flex-col items-center xl:px-[91px]">
-      <div className="flex px-5 flex-col items-start gap-10 xl:w-full lg:items-center">
+      <div className="flex px-5 flex-col items-start gap-10 xl:w-full lg:items-center max-w-[1256px]">
         <div className="flex flex-col gap-4">
           <span className="self-stretch text-[#00A277] text-sm font-bold tracking-[1.4px] uppercase lg:text-center">
             porque embarcar no na volta eu compro

@@ -99,7 +99,7 @@ export function MemberContainer() {
         ref={containerRef}
         onScroll={handleScroll}
       >
-        <div className="flex justify-start items-start gap-4 self-stretch sm:max-w-[600px] md:max-w-[700px] lg:max-w-[1000px] xl:max-w-[1078px] 2xl:max-w-[1310px]">
+        <div className="flex justify-start items-start gap-4 self-stretch sm:max-w-[600px] md:max-w-[700px] lg:max-w-[1000px] xl:max-w-[1078px] 2xl:max-w-[1254px]">
           {members.map((member, index) => (
             <Member
               key={index}

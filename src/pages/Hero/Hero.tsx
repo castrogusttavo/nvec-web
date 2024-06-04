@@ -3,8 +3,8 @@ import HeroImageSmall from '../../assets/img/heroTablet.png'
 
 export function Hero() {
   return (
-    <div className="flex md:items-start md:justify-between md:flex-row flex-col pt-10 pb-20 px-5 gap-6 justify-center items-center bg-gradient-to-t from-[#E0FAF3] to-[#FFF] xl:items-center xl:justify-between xl:w-full xl:px-[91px]">
-      <div className="lg:flex xl:items-center lg:justify-between lg:w-full">
+    <div className="flex md:items-start md:justify-between md:flex-row flex-col pt-10 pb-20 px-5 gap-6 justify-center items-center bg-gradient-to-t from-[#E0FAF3] to-[#FFF] xl:items-center xl:justify-center xl:w-full xl:px-[91px]">
+      <div className="lg:flex xl:items-center lg:justify-between lg:w-full max-w-[1256px]">
         <div className="flex flex-col justify-center sm:items-start items-center gap-6 self-stretch md:items-center lg:items-start lg:max-w-[492px] xl:max-w-[569px]">
           <header className="text-[#09090A] text-2xl font-black font-logo">
             Na Volta Eu Compro

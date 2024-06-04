@@ -8,7 +8,7 @@ import { Tools } from './pages/Tools/Tools'
 
 export function App() {
   return (
-    <div className="max-w[1256px] min-w-[320px] overflow-hidden">
+    <div className="min-w-[320px] overflow-hidden">
       <Hero />
       <Introduction />
       <Features />
