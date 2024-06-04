@@ -2,19 +2,25 @@ import { useRef, useState, useEffect } from 'react'
 import { Member } from '../MemberCard'
 import { ProgressBar } from '../../ProgressBar'
 
+import Alvaro from '../../../../../assets/member/alvaro.png'
+import Gaby from '../../../../../assets/member/gaby.png'
+import Gusttavo from '../../../../../assets/member/gusttavo.png'
+import Jennifer from '../../../../../assets/member/jennifer.png'
+import Sofia from '../../../../../assets/member/sofia.png'
+
 export function MemberContainer() {
   const members = [
     {
       name: 'Álvaro Oliveira',
       role: 'Co-fundador',
-      image: '../../../../../assets/img/member/alvaro.png',
+      image: Alvaro,
       course: 'Analista de Qualidade',
       linkInstagram: 'https://www.instagram.com/alvaro.joli/',
     },
     {
       name: 'Gabrielly Machado',
       role: 'Co-fundador',
-      image: '../../../../../assets/img/member/gaby.png',
+      image: Gaby,
       course: 'Desenvolvedora Front-end',
       linkGitHub: 'https://github.com/Gabrielly-Souza123',
       linkLinkedIn:
@@ -23,7 +29,7 @@ export function MemberContainer() {
     {
       name: 'Gusttavo Castro',
       role: 'Co-fundador',
-      image: '../../../../../assets/img/member/gusttavo.png',
+      image: Gusttavo,
       course: 'Full-stack & Designer',
       linkGitHub: 'https://github.com/castrogusttavo',
       linkLinkedIn: 'https://linkedin.com/in/castrogusttavo',
@@ -31,7 +37,7 @@ export function MemberContainer() {
     {
       name: 'Jennifer Gama',
       role: 'Co-fundador',
-      image: '../../../../../assets/img/member/jennifer.png',
+      image: Jennifer,
       course: 'Desenvolvedora Full-stack',
       linkGitHub: 'https://github.com/JenGama',
       linkLinkedIn: 'https://www.linkedin.com/in/jennifer-gama-21893b270/',
@@ -39,7 +45,7 @@ export function MemberContainer() {
     {
       name: 'Sofia Rocha',
       role: 'Co-fundador',
-      image: '../../../../../assets/img/member/sofia.png',
+      image: Sofia,
       course: 'Desenvolvedora Front-end',
       linkGitHub: 'https://github.com/TufiaDev',
       linkLinkedIn:
