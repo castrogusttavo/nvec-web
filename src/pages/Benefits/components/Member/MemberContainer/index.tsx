@@ -7,14 +7,14 @@ export function MemberContainer() {
     {
       name: 'Álvaro Oliveira',
       role: 'Co-fundador',
-      image: '/src/assets/img/member/alvaro.png',
+      image: '../../../../../assets/img/member/alvaro.png',
       course: 'Analista de Qualidade',
       linkInstagram: 'https://www.instagram.com/alvaro.joli/',
     },
     {
       name: 'Gabrielly Machado',
       role: 'Co-fundador',
-      image: '/src/assets/img/member/gaby.png',
+      image: '../../../../../assets/img/member/gaby.png',
       course: 'Desenvolvedora Front-end',
       linkGitHub: 'https://github.com/Gabrielly-Souza123',
       linkLinkedIn:
@@ -23,7 +23,7 @@ export function MemberContainer() {
     {
       name: 'Gusttavo Castro',
       role: 'Co-fundador',
-      image: '/src/assets/img/member/gusttavo.png',
+      image: '../../../../../assets/img/member/gusttavo.png',
       course: 'Full-stack & Designer',
       linkGitHub: 'https://github.com/castrogusttavo',
       linkLinkedIn: 'https://linkedin.com/in/castrogusttavo',
@@ -31,7 +31,7 @@ export function MemberContainer() {
     {
       name: 'Jennifer Gama',
       role: 'Co-fundador',
-      image: '/src/assets/img/member/jennifer.png',
+      image: '../../../../../assets/img/member/jennifer.png',
       course: 'Desenvolvedora Full-stack',
       linkGitHub: 'https://github.com/JenGama',
       linkLinkedIn: 'https://www.linkedin.com/in/jennifer-gama-21893b270/',
@@ -39,7 +39,7 @@ export function MemberContainer() {
     {
       name: 'Sofia Rocha',
       role: 'Co-fundador',
-      image: '/src/assets/img/member/sofia.png',
+      image: '../../../../../assets/img/member/sofia.png',
       course: 'Desenvolvedora Front-end',
       linkGitHub: 'https://github.com/TufiaDev',
       linkLinkedIn:
