@@ -1,4 +1,4 @@
-import Tela from '../../assets/img/tela.png'
+import Tela from '../../assets/img/midiaScreen.png'
 
 export function Introduction() {
   return (
