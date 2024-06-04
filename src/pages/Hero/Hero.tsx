@@ -1,6 +1,5 @@
 import { ButtonLink } from '../../components/ButtonLink'
 import HeroImageSmall from '../../assets/img/heroTablet.png'
-import HeroImageBig from '../../assets/img/heroDesktop.png'
 
 export function Hero() {
   return (
