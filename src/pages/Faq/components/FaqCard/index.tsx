@@ -48,8 +48,10 @@ export function FaqCard({
         </div>
       </div>
       <div
-        className={`overflow-hidden transition-all duration-500 ease-in-out ${
-          isOpen ? 'max-h-[1000px] opacity-100' : 'max-h-0 opacity-0'
+        className={`overflow-hidden ${
+          isOpen
+            ? 'max-h-[1000px] opacity-100 transition-max-height duration-700 ease-in-out transition-opacity'
+            : 'max-h-0 opacity-0 transition-all duration-500 ease-in-out'
         }`}
       >
         <p className="px-4 pb-8 pt-4 text-[#A8A8B3] [&>a]:underline">
