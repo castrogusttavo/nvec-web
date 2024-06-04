@@ -30,7 +30,7 @@ export function Footer() {
   return (
     <footer className="flex pt-[1px] flex-col items-center self-stretch lg:justify-between">
       <div className="flex py-8 px-[53.5px] flex-col text-center justify-center items-center gap-10 lg:flex-row lg:justify-between lg:px-6 lg:w-full xl:px-[91px]">
-        <header className="text-[#F7F7FA] font-sans text-2xl font-bold">
+        <header className="text-[#F7F7FA] font-logo text-2xl font-black">
           Na Volta Eu Compro
         </header>
         <div className="flex flex-col items-center gap-1 lg:flex-row lg:gap-6">

@@ -19,6 +19,7 @@ export default {
     },
     fontFamily: {
       sans: 'Plus Jakarta Sans, sans-serif',
+      logo: 'Ralway, sans-serif',
     },
     extend: {
       keyframes: {

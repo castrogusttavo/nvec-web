@@ -83,7 +83,7 @@ export function MemberContainer() {
   return (
     <div className="flex flex-col items-start gap-10 self-stretch">
       <div
-        className="max-w-[390px] sm:max-w-none overflow-x-auto md:overflow-x-auto whitespace-nowrap scrollbar-hide"
+        className="max-w-[390px] sm:max-w-none overflow-x-auto whitespace-nowrap scrollbar-hide"
         ref={containerRef}
         onScroll={handleScroll}
       >
