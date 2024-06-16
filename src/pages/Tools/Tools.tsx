@@ -14,7 +14,7 @@ export function Tools() {
           </h2>
         </div>
         <div className="flex flex-col lg:flex-row justify-start items-start">
-          <div className="flex pb-10 flex-col item-start gap-6 self-stretch">
+          <div className="max-w-[567px] flex pb-10 flex-col item-start gap-6 self-stretch">
             <h2 className="text-[#002F27] font-sans text-xl font-medium">
               Para sua organização financeira
             </h2>
@@ -31,7 +31,7 @@ export function Tools() {
               description="Acompanhe seus gastos com relatórios gráficos mensais e semestrais que oferecem uma visão clara e detalhada das suas finanças."
             />
           </div>
-          <div className="flex pb-10 flex-col item-start gap-6 self-stretch border-t-2 border-solid border-[#E1E1E6] pt-10 lg:border-l-2 lg:border-t-0 lg:pt-0 lg:pl-10">
+          <div className="max-w-[610px] flex pb-10 flex-col item-start gap-6 self-stretch border-t-2 border-solid border-[#E1E1E6] pt-10 lg:border-l-2 lg:border-t-0 lg:pt-0 lg:pl-10">
             <h2 className="text-[#002F27] font-sans text-xl font-medium">
               Para sua praticidade
             </h2>
