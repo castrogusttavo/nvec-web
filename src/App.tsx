@@ -5,6 +5,7 @@ import { Footer } from './pages/Footer'
 import { Hero } from './pages/Hero/Hero'
 import { Introduction } from './pages/Introduction/Introduction'
 import { Tools } from './pages/Tools/Tools'
+import {} from '@houstonicons/react'
 
 export function App() {
   return (
